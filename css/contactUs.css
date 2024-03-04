@@ -1,0 +1,70 @@
+.page-footer{
+    padding-top: 30px;
+    background-color: var(--main-color);
+    font-size: 14px;
+    color: white;
+}
+.page-footer .information .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .page-footer .information .container>div{
+    width: 45%;
+} */
+.page-footer .information .container .map img{
+    max-width: 95%;
+}
+
+.page-footer .information h3{
+    text-align: center;
+    border-bottom: 3px dashed white;
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 991px) {
+    .page-footer .information .container>div{
+        width: 100%;
+    }
+   
+}
+.page-footer .information ul span{
+    font-weight: bold;
+}
+.page-footer .contact ul{
+    margin-top: 20px;
+    margin-right: 35px;
+}
+.page-footer .container li{
+    margin-bottom: 8px;
+}
+.page-footer .container li:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 8px;
+}
+
+.page-footer .contact ul li:first-child:before{
+    content: "\f3c5";   
+}
+.page-footer .contact ul li:nth-child(2):before{
+    content: "\f879";   
+}.page-footer .contact ul li:last-child:before{
+    content: "\40";   
+}
+
+.copy-right {
+    text-align: center;
+    padding:20px 0;
+    background-color: rgb(219, 44, 44);
+    color: black;
+    font-size: 16px;
+}
+ .copy-right span{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}

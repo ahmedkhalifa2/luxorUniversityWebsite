@@ -1,0 +1,206 @@
+
+
+
+
+/* start address-bar */
+.address-bar{
+    height: 210px;
+    background-image: url(../images/universityPresident.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color-l);
+    position: relative;
+   
+}
+.address-bar .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.628);
+}
+.address-bar h1{
+    color: white;
+    z-index: 9999;
+}
+@media (max-width: 522px) {
+    .address-bar {
+        height: 180px;
+    }
+    .address-bar h1{
+      font-size: 22px;
+    }
+}
+@media (max-width: 376px) {
+    .address-bar {
+        height: 140px;
+    }
+    .address-bar h1{
+      font-size: 18px;
+    }
+}
+/* end address-bar */
+
+/* start content */
+
+.content{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+.content .container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .content .container>div{
+    width: 66%;
+} */
+.content .container .image {
+    display: flex;
+    justify-content: center;
+}
+
+.content .container .image img{
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+}
+.content .container .text{
+    width:690px;
+}
+
+.content .container .text p{
+    color: #777;
+    max-width: 100%;
+}
+.content .container .text span:first-child{
+    display: block;
+    width: 170px;
+    margin: 20px auto 30px;
+    font-weight: bold;
+}
+.content .container .text :nth-child(3){
+    margin: 100px 0 30px;
+    display: block;
+    color: #777;
+}
+.content .container .text span:last-child{
+    margin-top: 20px ;
+    font-weight: bold;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    display: block;
+    font-size: 14px;
+    text-align: end;
+}
+
+@media (max-width: 767px) {
+    .content .container .text{
+        font-size: 14px;
+    }
+    .content .container .text span:last-child{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+/* start content */
+
+
+
+
+
+/* start footer */
+.page-footer{
+    padding-top: 30px;
+    background-color: var(--main-color);
+    font-size: 14px;
+    color: white;
+}
+.page-footer .information{
+    padding-bottom: 40px;
+}
+.page-footer .information .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page-footer .information .container>div{
+    width: 30%;
+}
+.page-footer .information h3{
+    text-align: center;
+    border-bottom: 3px dashed white;
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+}
+.page-footer .about{
+    padding: 0;
+}
+.page-footer .about img{
+    width: 180px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+@media (max-width: 991px) {
+    .page-footer .information .container>div{
+        width: 100%;
+    }
+}
+.page-footer .information ul span{
+    font-weight: bold;
+}
+.page-footer .contact ul{
+    margin-top: 20px;
+    margin-right: 35px;
+}
+.page-footer .container li{
+    margin-bottom: 8px;
+}
+.page-footer .container li:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 8px;
+}
+
+.page-footer .contact ul li:first-child:before{
+    content: "\f3c5";   
+}
+.page-footer .contact ul li:nth-child(2):before{
+    content: "\f879";   
+}.page-footer .contact ul li:last-child:before{
+    content: "\40";   
+}
+.page-footer .links li::before{
+    content: "\f0c1";
+    padding-left: 8px;
+}
+.page-footer .links li a{
+    color: white;
+}
+
+.page-footer .copy-right {
+    text-align: center;
+    padding:20px 0;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+.page-footer .copy-right span{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* start footer */

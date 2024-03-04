@@ -1,0 +1,32 @@
+
+
+/* start landing */
+
+/* .main-landing .landing-background{
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+    
+} */
+/* .main-landing .landing-1{
+   background-image: url(../images/landing-1.jpeg);
+}
+.main-landing .landing-2{
+  background-image: url(../images/landing-2.jpeg);
+}
+.main-landing .landing-3{
+  background-image: url(../images/landing-3.jpeg);
+}
+.main-landing .landing-4{
+  background-image: url(../images/landing-4.jpeg);
+} */
+
+/* end landing */
+
+
+<p>
+                    تسعي جامعة الأقصر لخلق بيئة تعليمية محفزة وبحوث مميزة لتخريج كوادر قادرة على المنافسة محلياً ودولياً لتحقيق رياده علمية طبقاً لمعايير الجودة بما يخدم المجتمع ويحقق التنمية المستدامة إلي جانب سعيها لتوفير بيئة تكنولوجية داعمة للتعلم المستمر والبحث العلمي والابتكار وريادة الأعمال
+</p>

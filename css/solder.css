@@ -1,0 +1,46 @@
+
+
+.content{
+    padding: 100px 15px;
+}
+.content h1
+{
+    margin: 0 auto 70px;
+    width: 380px;
+    text-align: center;
+}
+.content .image img{
+    max-width: 95%;
+}
+.content .goal p i{
+    font-size: 22px;
+  color: var(--main-color);
+    margin-left: 15px;
+}
+@media (max-width: 767px) {
+    .content .image img{
+        max-width: 75%;
+    }
+    .content .image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .content h1{
+        font-size: 22px;
+        width: 250px;
+    }
+}
+
+ .copy-right {
+    text-align: center;
+    padding:20px 0;
+    background-color: rgb(219, 44, 44);
+    color: black;
+    font-size: 16px;
+}
+ .copy-right span{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}

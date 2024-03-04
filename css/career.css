@@ -1,0 +1,146 @@
+
+
+/* start content  */
+
+.cv{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+@media (min-width: 1300px) { 
+    .cv .container{  
+        width: 90% ;
+        padding: 0;
+    }
+}
+.cv .container{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; 
+}
+@media (max-width: 767px) {
+    .cv .container{ 
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        
+    }
+}   
+@media (min-width: 768px) {
+    .cv .container{ 
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        grid-gap: 30px;
+    }
+    
+}
+.cv .news-box{
+    position: relative;
+    
+}
+.cv .news-box:hover img{
+   transform: scale(1.06);
+   transition:0.5s;
+   
+}
+.cv .news-box img{
+    height: 240px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cv .news-box .news-text{
+   background-color: white;
+   color: black;
+   margin-top: 15px;
+}
+
+/* end news *
+
+
+/* start footer */
+.page-footer{
+    padding-top: 30px;
+    background-color: var(--main-color);
+    font-size: 14px;
+    color: white;
+}
+.page-footer .information{
+    padding-bottom: 40px;
+}
+.page-footer .information .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page-footer .information .container>div{
+    width: 30%;
+}
+.page-footer .information h3{
+    text-align: center;
+    border-bottom: 3px dashed white;
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+}
+.page-footer .about{
+    padding: 0;
+}
+.page-footer .about img{
+    width: 180px;
+    height: 120px;
+}
+@media (max-width: 991px) {
+    .page-footer .information .container>div{
+        width: 100%;
+    }
+    .page-footer .about img{
+        margin-bottom: 20px;
+    }
+}
+.page-footer .information ul span{
+    font-weight: bold;
+}
+.page-footer .contact ul{
+    margin-top: 20px;
+    margin-right: 35px;
+}
+.page-footer .container li{
+    margin-bottom: 8px;
+}
+.page-footer .container li:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 8px;
+}
+
+.page-footer .contact ul li:first-child:before{
+    content: "\f3c5";   
+}
+.page-footer .contact ul li:nth-child(2):before{
+    content: "\f879";   
+}.page-footer .contact ul li:last-child:before{
+    content: "\40";   
+}
+.page-footer .links li::before{
+    content: "\f0c1";
+    padding-left: 8px;
+}
+.page-footer .links li a{
+    color: white;
+}
+
+.page-footer .copy-right {
+    text-align: center;
+    padding:20px 0;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+.page-footer .copy-right span{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* start footer */
