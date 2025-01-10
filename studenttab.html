@@ -1,14 +1,14 @@
 <?php
-include ("conn.php");
+include ("conn.html");
 session_start();
 
 if(isset($_SESSION["username"])){
     if(($_SESSION["username"])=="" or $_SESSION['id']='0'){
-        header("location: ../logintab.php");
+        header("location: ../logintab.html");
     }
 
 }else{
-    header("location: ../logintab.php");
+    header("location: ../logintab.html");
 }
 
 $username=$_GET['username'];
@@ -478,14 +478,14 @@ for ($y=0;$y<$result->num_rows;$y++){
                 <div class="popup">
                 <center>
                     <h2>Are you sure?</h2>
-                    <a class="close" href="enrollDellcourse.php?id='.$id.'&username='.$username.'">&times;</a>
+                    <a class="close" href="enrollDellcourse.html?id='.$id.'&username='.$username.'">&times;</a>
                     <div class="content">
                         You want to delete Your course <br>('.$cour.').
                         
                     </div>
                     <div style="display: flex;justify-content: center;">
-                    <a href="cordel.php?id='.$id.'&c_code='.$cour.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"<font class="tn-in-text">&nbsp;Yes&nbsp;</font></button></a>&nbsp;&nbsp;&nbsp;
-                    <a href="enrollDellCourse.php?id='.$id.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;No&nbsp;&nbsp;</font></button></a>
+                    <a href="cordel.html?id='.$id.'&c_code='.$cour.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"<font class="tn-in-text">&nbsp;Yes&nbsp;</font></button></a>&nbsp;&nbsp;&nbsp;
+                    <a href="enrollDellCourse.html?id='.$id.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;No&nbsp;&nbsp;</font></button></a>
 
                     </div>
                 </center>
@@ -502,14 +502,14 @@ for ($y=0;$y<$result->num_rows;$y++){
             <div class="popup">
             <center>
                 <h2>Are you sure?</h2>
-                <a class="close" href="enrollDellcourse.php?id='.$id.'&username='.$username.'">&times;</a>
+                <a class="close" href="enrollDellcourse.html?id='.$id.'&username='.$username.'">&times;</a>
                 <div class="content">
                     You want to add this course <br>('.$cour.').
                     
                 </div>
                 <div style="display: flex;justify-content: center;">
-                <a href="coradd.php?id='.$id.'&c_code='.$cour.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"<font class="tn-in-text">&nbsp;Yes&nbsp;</font></button></a>&nbsp;&nbsp;&nbsp;
-                <a href="enrollDellCourse.php?id='.$id.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;No&nbsp;&nbsp;</font></button></a>
+                <a href="coradd.html?id='.$id.'&c_code='.$cour.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"<font class="tn-in-text">&nbsp;Yes&nbsp;</font></button></a>&nbsp;&nbsp;&nbsp;
+                <a href="enrollDellCourse.html?id='.$id.'&username='.$username.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;No&nbsp;&nbsp;</font></button></a>
 
                 </div>
             </center>
